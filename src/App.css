@@ -4,12 +4,12 @@
 
 ::-moz-selection {
   color: #ffffff;
-  background: var( --color);
+  background: var(--color);
 }
 
 ::selection {
   color: #ffffff;
-  background: var( --color);
+  background: var(--color);
 }
 
 * {
@@ -19,7 +19,7 @@
 
 body {
   min-width: 320px;
-  background-color: var( --color);
+  background-color: var(--color);
   font-size: 22px;
   display: flex;
   align-items: center;
@@ -64,7 +64,7 @@ a {
   color: #121212;
   font-size: inherit;
   text-align: center;
-  letter-spacing: 0.2em;  
+  letter-spacing: 0.2em;
   border: 1px solid #616161;
   background-color: #ffffff;
 }
@@ -78,18 +78,22 @@ a {
   bottom: -40px;
   width: 100%;
   padding: 0;
-  border: none;  
+  border: none;
   outline: none;
-  color: #121212;
+  color: #ffffff;
+  text-shadow:
+    0.07em 0 black,
+    0 0.07em black,
+    -0.07em 0 black,
+    0 -0.07em black;
   background-color: transparent;
   font-size: inherit;
   text-align: center;
-  opacity: 0.5;
   cursor: pointer;
 }
 
 .copy-btn:focus-visible {
-  color: var( --color);
+  color: var(--color);
 }
 
 .credit {
@@ -99,6 +103,10 @@ a {
 }
 
 .credit__link {
-  color: #121212;
-  opacity: 0.5;
+  color: #ffffff;
+  text-shadow:
+    0.07em 0 black,
+    0 0.07em black,
+    -0.07em 0 black,
+    0 -0.07em black;
 }
