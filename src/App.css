@@ -82,10 +82,10 @@ a {
   outline: none;
   color: #ffffff;
   text-shadow:
-    0.07em 0 black,
-    0 0.07em black,
-    -0.07em 0 black,
-    0 -0.07em black;
+    0.07em 0 #565656,
+    0 0.07em #565656,
+    -0.07em 0 #565656,
+    0 -0.07em #565656;
   background-color: transparent;
   font-size: inherit;
   text-align: center;
@@ -105,8 +105,8 @@ a {
 .credit__link {
   color: #ffffff;
   text-shadow:
-    0.07em 0 black,
-    0 0.07em black,
-    -0.07em 0 black,
-    0 -0.07em black;
+    0.07em 0 #565656,
+    0 0.07em #565656,
+    -0.07em 0 #565656,
+    0 -0.07em #565656;
 }
